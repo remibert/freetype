@@ -165,7 +165,7 @@ FT_BEGIN_HEADER
    * Note that if your compiler or CPU is not supported, this will default to
    * the standard and portable implementation found in `ftcalc.c`.
    */
-#define FT_CONFIG_OPTION_INLINE_MULFIX
+//~ #define FT_CONFIG_OPTION_INLINE_MULFIX
 
 
   /**************************************************************************
@@ -180,7 +180,7 @@ FT_BEGIN_HEADER
    *
    *   Define this macro if you want to enable this 'feature'.
    */
-#define FT_CONFIG_OPTION_USE_LZW
+//~ #define FT_CONFIG_OPTION_USE_LZW
 
 
   /**************************************************************************
@@ -195,7 +195,7 @@ FT_BEGIN_HEADER
    *   Define this macro if you want to enable this 'feature'.  See also the
    *   macro `FT_CONFIG_OPTION_SYSTEM_ZLIB` below.
    */
-#define FT_CONFIG_OPTION_USE_ZLIB
+//~ #define FT_CONFIG_OPTION_USE_ZLIB
 
 
   /**************************************************************************
@@ -331,7 +331,7 @@ FT_BEGIN_HEADER
    *   You would normally undefine this configuration macro when building a
    *   version of FreeType that doesn't contain a Type~1 or CFF driver.
    */
-#define FT_CONFIG_OPTION_POSTSCRIPT_NAMES
+//~ #define FT_CONFIG_OPTION_POSTSCRIPT_NAMES
 
 
   /**************************************************************************
@@ -348,7 +348,7 @@ FT_BEGIN_HEADER
    *   in your 'psnames' module.  The Type~1 driver will not be able to
    *   synthesize a Unicode charmap out of the glyphs found in the fonts.
    */
-#define FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
+//~ #define FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
 
 
   /**************************************************************************
@@ -361,7 +361,7 @@ FT_BEGIN_HEADER
    *
    *   Note that the 'FOND' resource isn't checked.
    */
-#define FT_CONFIG_OPTION_MAC_FONTS
+//~ #define FT_CONFIG_OPTION_MAC_FONTS
 
 
   /**************************************************************************
@@ -381,7 +381,7 @@ FT_BEGIN_HEADER
    *   the `FT_CONFIG_OPTION_MAC_FONTS` option.
    */
 #ifdef FT_CONFIG_OPTION_MAC_FONTS
-#define FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
+//~ #define FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
 #endif
 
 
@@ -393,7 +393,7 @@ FT_BEGIN_HEADER
    * incrementally as the document is parsed, such as the Ghostscript
    * interpreter for the PostScript language.
    */
-#define FT_CONFIG_OPTION_INCREMENTAL
+//~ #define FT_CONFIG_OPTION_INCREMENTAL
 
 
   /**************************************************************************
@@ -524,7 +524,7 @@ FT_BEGIN_HEADER
    *
    *   More details can be found in the files `ftmoderr.h` and `fterrors.h`.
    */
-#undef FT_CONFIG_OPTION_USE_MODULE_ERRORS
+//~ #undef FT_CONFIG_OPTION_USE_MODULE_ERRORS
 
 
   /**************************************************************************
@@ -538,7 +538,7 @@ FT_BEGIN_HEADER
    *
    *   More details on the hooks can be found in file `otsvg.h`.
    */
-#define FT_CONFIG_OPTION_SVG
+//~ #define FT_CONFIG_OPTION_SVG
 
 
   /**************************************************************************
@@ -569,7 +569,7 @@ FT_BEGIN_HEADER
    * embedded bitmaps in all formats using the 'sfnt' module (namely
    * TrueType~& OpenType).
    */
-#define TT_CONFIG_OPTION_EMBEDDED_BITMAPS
+//~ #define TT_CONFIG_OPTION_EMBEDDED_BITMAPS
 
 
   /**************************************************************************
@@ -578,7 +578,7 @@ FT_BEGIN_HEADER
    * outlines (from the 'COLR'/'CPAL' tables) in all formats using the 'sfnt'
    * module (namely TrueType~& OpenType).
    */
-#define TT_CONFIG_OPTION_COLOR_LAYERS
+//~ #define TT_CONFIG_OPTION_COLOR_LAYERS
 
 
   /**************************************************************************
@@ -593,7 +593,7 @@ FT_BEGIN_HEADER
    *
    * (By default, the module uses 'psnames' to extract glyph names.)
    */
-#define TT_CONFIG_OPTION_POSTSCRIPT_NAMES
+//~ #define TT_CONFIG_OPTION_POSTSCRIPT_NAMES
 
 
   /**************************************************************************
@@ -617,15 +617,15 @@ FT_BEGIN_HEADER
    *   Here you can fine-tune which TrueType CMap table format shall be
    *   supported.
    */
-#define TT_CONFIG_CMAP_FORMAT_0
-#define TT_CONFIG_CMAP_FORMAT_2
+//~ #define TT_CONFIG_CMAP_FORMAT_0
+//~ #define TT_CONFIG_CMAP_FORMAT_2
 #define TT_CONFIG_CMAP_FORMAT_4
-#define TT_CONFIG_CMAP_FORMAT_6
-#define TT_CONFIG_CMAP_FORMAT_8
-#define TT_CONFIG_CMAP_FORMAT_10
-#define TT_CONFIG_CMAP_FORMAT_12
-#define TT_CONFIG_CMAP_FORMAT_13
-#define TT_CONFIG_CMAP_FORMAT_14
+//~ #define TT_CONFIG_CMAP_FORMAT_6
+//~ #define TT_CONFIG_CMAP_FORMAT_8
+//~ #define TT_CONFIG_CMAP_FORMAT_10
+//~ #define TT_CONFIG_CMAP_FORMAT_12
+//~ #define TT_CONFIG_CMAP_FORMAT_13
+//~ #define TT_CONFIG_CMAP_FORMAT_14
 
 
   /*************************************************************************/
@@ -647,7 +647,7 @@ FT_BEGIN_HEADER
    * Do not `#undef` this macro here, since the build system might define it
    * for certain configurations only.
    */
-#define TT_CONFIG_OPTION_BYTECODE_INTERPRETER
+//~ #define TT_CONFIG_OPTION_BYTECODE_INTERPRETER
 
 
   /**************************************************************************
@@ -681,7 +681,7 @@ FT_BEGIN_HEADER
    * [1]
    * https://www.microsoft.com/typography/cleartype/truetypecleartype.aspx
    */
-#define TT_CONFIG_OPTION_SUBPIXEL_HINTING
+//~ #define TT_CONFIG_OPTION_SUBPIXEL_HINTING
 
 
   /**************************************************************************
@@ -700,7 +700,7 @@ FT_BEGIN_HEADER
    *   https://www.microsoft.com/typography/otspec/glyf.htm
    *   https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6glyf.html
    */
-#undef TT_CONFIG_OPTION_COMPONENT_OFFSET_SCALED
+//~ #undef TT_CONFIG_OPTION_COMPONENT_OFFSET_SCALED
 
 
   /**************************************************************************
@@ -710,7 +710,7 @@ FT_BEGIN_HEADER
    * 'avar' tables).  Tagged 'Font Variations', this is now part of OpenType
    * also.  This has many similarities to Type~1 Multiple Masters support.
    */
-#define TT_CONFIG_OPTION_GX_VAR_SUPPORT
+//~ #define TT_CONFIG_OPTION_GX_VAR_SUPPORT
 
 
   /**************************************************************************
@@ -736,7 +736,7 @@ FT_BEGIN_HEADER
    * Define `TT_CONFIG_OPTION_BDF` if you want to include support for an
    * embedded 'BDF~' table within SFNT-based bitmap formats.
    */
-#define TT_CONFIG_OPTION_BDF
+//~ #define TT_CONFIG_OPTION_BDF
 
 
   /**************************************************************************
@@ -816,7 +816,7 @@ FT_BEGIN_HEADER
    * into an existing face.  Note that if set, the Type~1 driver will be
    * unable to produce kerning distances.
    */
-#undef T1_CONFIG_OPTION_NO_AFM
+//~ #undef T1_CONFIG_OPTION_NO_AFM
 
 
   /**************************************************************************
@@ -824,7 +824,7 @@ FT_BEGIN_HEADER
    * Define this configuration macro if you want to prevent the compilation
    * of the Multiple Masters font support in the Type~1 driver.
    */
-#undef T1_CONFIG_OPTION_NO_MM_SUPPORT
+//~ #undef T1_CONFIG_OPTION_NO_MM_SUPPORT
 
 
   /**************************************************************************
@@ -856,17 +856,17 @@ FT_BEGIN_HEADER
    *
    * Do **not** undefine these macros!
    */
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X1   500
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y1   400
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X1   500
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y1   400
 
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X2  1000
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y2   275
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X2  1000
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y2   275
 
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X3  1667
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y3   275
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X3  1667
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y3   275
 
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X4  2333
-#define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y4     0
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_X4  2333
+//~ #define CFF_CONFIG_OPTION_DARKENING_PARAMETER_Y4     0
 
 
   /**************************************************************************
@@ -920,7 +920,7 @@ FT_BEGIN_HEADER
    * Compile 'autofit' module with CJK (Chinese, Japanese, Korean) script
    * support.
    */
-#define AF_CONFIG_OPTION_CJK
+//~ #define AF_CONFIG_OPTION_CJK
 
 
   /**************************************************************************
@@ -930,7 +930,7 @@ FT_BEGIN_HEADER
    * (yet) handle.  Currently, this needs option `AF_CONFIG_OPTION_CJK`.
    */
 #ifdef AF_CONFIG_OPTION_CJK
-#define AF_CONFIG_OPTION_INDIC
+//~ #define AF_CONFIG_OPTION_INDIC
 #endif
 
 
@@ -971,9 +971,9 @@ FT_BEGIN_HEADER
    * requested by the definitions above.  Don't change this.
    */
 #ifdef TT_CONFIG_OPTION_BYTECODE_INTERPRETER
-#define  TT_USE_BYTECODE_INTERPRETER
+//~ #define  TT_USE_BYTECODE_INTERPRETER
 #ifdef TT_CONFIG_OPTION_SUBPIXEL_HINTING
-#define  TT_SUPPORT_SUBPIXEL_HINTING_MINIMAL
+//~ #define  TT_SUPPORT_SUBPIXEL_HINTING_MINIMAL
 #endif
 #endif
 
@@ -989,7 +989,7 @@ FT_BEGIN_HEADER
    * to test for availability.
    */
 #ifdef TT_CONFIG_OPTION_COLOR_LAYERS
-#define  TT_SUPPORT_COLRV1
+//~ #define  TT_SUPPORT_COLRV1
 #endif
 
 

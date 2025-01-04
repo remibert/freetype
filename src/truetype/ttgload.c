@@ -1205,7 +1205,7 @@
     FT_Error     error;
     FT_Outline*  outline = &loader->gloader->base.outline;
     FT_Stream    stream = loader->stream;
-    FT_UShort    n_ins;
+    //FT_UShort    n_ins;
     FT_UInt      i;
 
 

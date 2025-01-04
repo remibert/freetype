@@ -1896,7 +1896,7 @@ typedef ptrdiff_t  FT_PtrDist;
     for ( y = ras.cbox.yMin; y < ras.cbox.yMax; )
     {
       ras.min_ey = y;
-      y         += height;
+      y         += (TCoord)height;
       ras.max_ey = FT_MIN( y, ras.cbox.yMax );
 
       ras.count_ey = ras.max_ey - ras.min_ey;

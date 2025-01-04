@@ -180,7 +180,7 @@ FT_BEGIN_HEADER
    *
    *   Define this macro if you want to enable this 'feature'.
    */
-#define FT_CONFIG_OPTION_USE_LZW
+//~ #define FT_CONFIG_OPTION_USE_LZW
 
 
   /**************************************************************************
@@ -195,7 +195,7 @@ FT_BEGIN_HEADER
    *   Define this macro if you want to enable this 'feature'.  See also the
    *   macro `FT_CONFIG_OPTION_SYSTEM_ZLIB` below.
    */
-#define FT_CONFIG_OPTION_USE_ZLIB
+//~ #define FT_CONFIG_OPTION_USE_ZLIB
 
 
   /**************************************************************************
@@ -244,7 +244,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_BZIP2
+//~ #define FT_CONFIG_OPTION_USE_BZIP2
 
 
   /**************************************************************************
@@ -273,7 +273,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_PNG
+//~ #define FT_CONFIG_OPTION_USE_PNG
 
 
   /**************************************************************************
@@ -290,7 +290,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_HARFBUZZ
+//~ #define FT_CONFIG_OPTION_USE_HARFBUZZ
 
 
   /**************************************************************************
@@ -306,7 +306,7 @@ FT_BEGIN_HEADER
    *   options set by those programs have precedence, overwriting the value
    *   here with the configured one.
    */
-#define FT_CONFIG_OPTION_USE_BROTLI
+//~ #define FT_CONFIG_OPTION_USE_BROTLI
 
 
   /**************************************************************************
@@ -331,7 +331,7 @@ FT_BEGIN_HEADER
    *   You would normally undefine this configuration macro when building a
    *   version of FreeType that doesn't contain a Type~1 or CFF driver.
    */
-#define FT_CONFIG_OPTION_POSTSCRIPT_NAMES
+//~ #define FT_CONFIG_OPTION_POSTSCRIPT_NAMES
 
 
   /**************************************************************************
@@ -348,7 +348,7 @@ FT_BEGIN_HEADER
    *   in your 'psnames' module.  The Type~1 driver will not be able to
    *   synthesize a Unicode charmap out of the glyphs found in the fonts.
    */
-#define FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
+//~ #define FT_CONFIG_OPTION_ADOBE_GLYPH_LIST
 
 
   /**************************************************************************
@@ -361,7 +361,7 @@ FT_BEGIN_HEADER
    *
    *   Note that the 'FOND' resource isn't checked.
    */
-#define FT_CONFIG_OPTION_MAC_FONTS
+//~ #define FT_CONFIG_OPTION_MAC_FONTS
 
 
   /**************************************************************************
@@ -381,7 +381,7 @@ FT_BEGIN_HEADER
    *   the `FT_CONFIG_OPTION_MAC_FONTS` option.
    */
 #ifdef FT_CONFIG_OPTION_MAC_FONTS
-#define FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
+//~ #define FT_CONFIG_OPTION_GUESSING_EMBEDDED_RFORK
 #endif
 
 
@@ -393,7 +393,7 @@ FT_BEGIN_HEADER
    * incrementally as the document is parsed, such as the Ghostscript
    * interpreter for the PostScript language.
    */
-#define FT_CONFIG_OPTION_INCREMENTAL
+//~ #define FT_CONFIG_OPTION_INCREMENTAL
 
 
   /**************************************************************************
@@ -736,7 +736,7 @@ FT_BEGIN_HEADER
    * Define `TT_CONFIG_OPTION_BDF` if you want to include support for an
    * embedded 'BDF~' table within SFNT-based bitmap formats.
    */
-#define TT_CONFIG_OPTION_BDF
+//~ #define TT_CONFIG_OPTION_BDF
 
 
   /**************************************************************************
@@ -770,7 +770,7 @@ FT_BEGIN_HEADER
    * sophisticated kerning variants.  Use a higher-level library like
    * HarfBuzz instead for that.
    */
-#define TT_CONFIG_OPTION_GPOS_KERNING
+//~ #define TT_CONFIG_OPTION_GPOS_KERNING
 
 
   /*************************************************************************/
